@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .Ibarra {
+    font-family: "Ibarra Real Nova", serif;
+  }
+  .public-sans {
+    font-family: "Public Sans", sans-serif;
+  }
+}
